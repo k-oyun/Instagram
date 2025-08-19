@@ -22,6 +22,7 @@ struct ContentView: View {
                         NavigationLink(
                             destination:PostDetailView(post:post)) {
                                 FeedCardView(post: post)
+                                    .padding(.bottom,10)
                             }
                         
                     }
